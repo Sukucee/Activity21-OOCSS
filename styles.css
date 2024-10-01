@@ -1,0 +1,64 @@
+/* Structure Styles (Layout, Flexibility) */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pinkflesh.png);
+    height: 100vh;
+    margin: 0;
+    background-color: #fdf2f8; 
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .card {
+    border: 1px solid #fffdfe;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    background-color: #fffdfe; 
+    text-align: center; 
+  }
+  
+  header{
+    font-size: 30px;
+    color: #3f1f2b;
+    margin-right: 200px;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    background-color: #ff4089;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  
+  .btn-primary:hover {
+    background-color: #2a612c;
+  }
+  
